@@ -1,0 +1,62 @@
+{
+  "accuracy_matrix": [
+    [
+      0.6
+    ]
+  ],
+  "std_ddof": 0,
+  "order_std_by_set": [
+    0.0
+  ],
+  "selection_std_by_permutation": [
+    0.0
+  ],
+  "order_sensitivity": 0.0,
+  "selection_sensitivity": 0.0,
+  "selection_over_order": null,
+  "ratio_status": "undefined: zero order sensitivity",
+  "mean_accuracy": 0.6,
+  "configurations": [
+    {
+      "set_id": 0,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ordered_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "num_test": 5,
+      "num_correct": 3,
+      "accuracy": 0.6,
+      "parse_failures": 0
+    }
+  ],
+  "num_predictions": 5,
+  "parse_failures": 0,
+  "inference_seconds": 4.856143626151606
+}

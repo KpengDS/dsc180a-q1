@@ -1,0 +1,17 @@
+{
+  "num_sets": 5,
+  "num_permutations": 5,
+  "num_test": 100,
+  "per_class": 2,
+  "seed": 180,
+  "selection": "balanced",
+  "ordering": "random",
+  "test_sampling": "near_balanced",
+  "max_chars": 1000,
+  "std_ddof": 0,
+  "device": "mps",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "dataset_revision": "eb185aade064a813bc0b7f42de02595523103ca4",
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "prompt_mode": "completion"
+}

@@ -1,0 +1,1014 @@
+{
+  "accuracy_matrix": [
+    [
+      0.74,
+      0.74,
+      0.71,
+      0.71,
+      0.71
+    ],
+    [
+      0.72,
+      0.74,
+      0.72,
+      0.72,
+      0.66
+    ],
+    [
+      0.7,
+      0.75,
+      0.72,
+      0.66,
+      0.69
+    ],
+    [
+      0.72,
+      0.76,
+      0.72,
+      0.66,
+      0.71
+    ],
+    [
+      0.73,
+      0.72,
+      0.72,
+      0.71,
+      0.7
+    ]
+  ],
+  "std_ddof": 0,
+  "order_std_by_set": [
+    0.014696938456699081,
+    0.027129319932501055,
+    0.03006659275674581,
+    0.031999999999999994,
+    0.01019803902718558
+  ],
+  "selection_std_by_permutation": [
+    0.013266499161421611,
+    0.013266499161421611,
+    0.0040000000000000036,
+    0.02638181191654581,
+    0.018547236990991384
+  ],
+  "order_sensitivity": 0.022818178034626303,
+  "selection_sensitivity": 0.015092409446076083,
+  "selection_over_order": 0.6614204439624206,
+  "ratio_status": "defined",
+  "mean_accuracy": 0.7136,
+  "configurations": [
+    {
+      "set_id": 0,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        2,
+        7,
+        3,
+        5,
+        4,
+        1,
+        0,
+        6
+      ],
+      "ordered_demo_indices": [
+        36222,
+        113426,
+        112323,
+        88449,
+        89467,
+        1571,
+        98053,
+        40434
+      ],
+      "num_test": 100,
+      "num_correct": 74,
+      "accuracy": 0.74,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 0,
+      "permutation_id": 1,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        5,
+        1,
+        7,
+        3,
+        2,
+        6,
+        0,
+        4
+      ],
+      "ordered_demo_indices": [
+        88449,
+        1571,
+        113426,
+        112323,
+        36222,
+        40434,
+        98053,
+        89467
+      ],
+      "num_test": 100,
+      "num_correct": 74,
+      "accuracy": 0.74,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 0,
+      "permutation_id": 2,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        2,
+        1,
+        5,
+        6,
+        4,
+        0,
+        3,
+        7
+      ],
+      "ordered_demo_indices": [
+        36222,
+        1571,
+        88449,
+        40434,
+        89467,
+        98053,
+        112323,
+        113426
+      ],
+      "num_test": 100,
+      "num_correct": 71,
+      "accuracy": 0.71,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 0,
+      "permutation_id": 3,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        4,
+        3,
+        5,
+        2,
+        6,
+        7,
+        1,
+        0
+      ],
+      "ordered_demo_indices": [
+        89467,
+        112323,
+        88449,
+        36222,
+        40434,
+        113426,
+        1571,
+        98053
+      ],
+      "num_test": 100,
+      "num_correct": 71,
+      "accuracy": 0.71,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 0,
+      "permutation_id": 4,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        4,
+        5,
+        3,
+        0,
+        2,
+        6,
+        1,
+        7
+      ],
+      "ordered_demo_indices": [
+        89467,
+        88449,
+        112323,
+        98053,
+        36222,
+        40434,
+        1571,
+        113426
+      ],
+      "num_test": 100,
+      "num_correct": 71,
+      "accuracy": 0.71,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        2,
+        7,
+        3,
+        5,
+        4,
+        1,
+        0,
+        6
+      ],
+      "ordered_demo_indices": [
+        68525,
+        74161,
+        106220,
+        22287,
+        63061,
+        74585,
+        31254,
+        29067
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 2
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 1,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        5,
+        1,
+        7,
+        3,
+        2,
+        6,
+        0,
+        4
+      ],
+      "ordered_demo_indices": [
+        22287,
+        74585,
+        74161,
+        106220,
+        68525,
+        29067,
+        31254,
+        63061
+      ],
+      "num_test": 100,
+      "num_correct": 74,
+      "accuracy": 0.74,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 2,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        2,
+        1,
+        5,
+        6,
+        4,
+        0,
+        3,
+        7
+      ],
+      "ordered_demo_indices": [
+        68525,
+        74585,
+        22287,
+        29067,
+        63061,
+        31254,
+        106220,
+        74161
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 3,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        4,
+        3,
+        5,
+        2,
+        6,
+        7,
+        1,
+        0
+      ],
+      "ordered_demo_indices": [
+        63061,
+        106220,
+        22287,
+        68525,
+        29067,
+        74161,
+        74585,
+        31254
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 4,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        4,
+        5,
+        3,
+        0,
+        2,
+        6,
+        1,
+        7
+      ],
+      "ordered_demo_indices": [
+        63061,
+        22287,
+        106220,
+        31254,
+        68525,
+        29067,
+        74585,
+        74161
+      ],
+      "num_test": 100,
+      "num_correct": 66,
+      "accuracy": 0.66,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 2,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        109600,
+        48186,
+        16660,
+        114939,
+        59053,
+        21413,
+        13379,
+        105269
+      ],
+      "permutation": [
+        2,
+        7,
+        3,
+        5,
+        4,
+        1,
+        0,
+        6
+      ],
+      "ordered_demo_indices": [
+        16660,
+        105269,
+        114939,
+        21413,
+        59053,
+        48186,
+        109600,
+        13379
+      ],
+      "num_test": 100,
+      "num_correct": 70,
+      "accuracy": 0.7,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 2,
+      "permutation_id": 1,
+      "canonical_demo_indices": [
+        109600,
+        48186,
+        16660,
+        114939,
+        59053,
+        21413,
+        13379,
+        105269
+      ],
+      "permutation": [
+        5,
+        1,
+        7,
+        3,
+        2,
+        6,
+        0,
+        4
+      ],
+      "ordered_demo_indices": [
+        21413,
+        48186,
+        105269,
+        114939,
+        16660,
+        13379,
+        109600,
+        59053
+      ],
+      "num_test": 100,
+      "num_correct": 75,
+      "accuracy": 0.75,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 2,
+      "permutation_id": 2,
+      "canonical_demo_indices": [
+        109600,
+        48186,
+        16660,
+        114939,
+        59053,
+        21413,
+        13379,
+        105269
+      ],
+      "permutation": [
+        2,
+        1,
+        5,
+        6,
+        4,
+        0,
+        3,
+        7
+      ],
+      "ordered_demo_indices": [
+        16660,
+        48186,
+        21413,
+        13379,
+        59053,
+        109600,
+        114939,
+        105269
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 2,
+      "permutation_id": 3,
+      "canonical_demo_indices": [
+        109600,
+        48186,
+        16660,
+        114939,
+        59053,
+        21413,
+        13379,
+        105269
+      ],
+      "permutation": [
+        4,
+        3,
+        5,
+        2,
+        6,
+        7,
+        1,
+        0
+      ],
+      "ordered_demo_indices": [
+        59053,
+        114939,
+        21413,
+        16660,
+        13379,
+        105269,
+        48186,
+        109600
+      ],
+      "num_test": 100,
+      "num_correct": 66,
+      "accuracy": 0.66,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 2,
+      "permutation_id": 4,
+      "canonical_demo_indices": [
+        109600,
+        48186,
+        16660,
+        114939,
+        59053,
+        21413,
+        13379,
+        105269
+      ],
+      "permutation": [
+        4,
+        5,
+        3,
+        0,
+        2,
+        6,
+        1,
+        7
+      ],
+      "ordered_demo_indices": [
+        59053,
+        21413,
+        114939,
+        109600,
+        16660,
+        13379,
+        48186,
+        105269
+      ],
+      "num_test": 100,
+      "num_correct": 69,
+      "accuracy": 0.69,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 3,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        118585,
+        24141,
+        54591,
+        10340,
+        29027,
+        53945,
+        28573,
+        104763
+      ],
+      "permutation": [
+        2,
+        7,
+        3,
+        5,
+        4,
+        1,
+        0,
+        6
+      ],
+      "ordered_demo_indices": [
+        54591,
+        104763,
+        10340,
+        53945,
+        29027,
+        24141,
+        118585,
+        28573
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 2
+    },
+    {
+      "set_id": 3,
+      "permutation_id": 1,
+      "canonical_demo_indices": [
+        118585,
+        24141,
+        54591,
+        10340,
+        29027,
+        53945,
+        28573,
+        104763
+      ],
+      "permutation": [
+        5,
+        1,
+        7,
+        3,
+        2,
+        6,
+        0,
+        4
+      ],
+      "ordered_demo_indices": [
+        53945,
+        24141,
+        104763,
+        10340,
+        54591,
+        28573,
+        118585,
+        29027
+      ],
+      "num_test": 100,
+      "num_correct": 76,
+      "accuracy": 0.76,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 3,
+      "permutation_id": 2,
+      "canonical_demo_indices": [
+        118585,
+        24141,
+        54591,
+        10340,
+        29027,
+        53945,
+        28573,
+        104763
+      ],
+      "permutation": [
+        2,
+        1,
+        5,
+        6,
+        4,
+        0,
+        3,
+        7
+      ],
+      "ordered_demo_indices": [
+        54591,
+        24141,
+        53945,
+        28573,
+        29027,
+        118585,
+        10340,
+        104763
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 3,
+      "permutation_id": 3,
+      "canonical_demo_indices": [
+        118585,
+        24141,
+        54591,
+        10340,
+        29027,
+        53945,
+        28573,
+        104763
+      ],
+      "permutation": [
+        4,
+        3,
+        5,
+        2,
+        6,
+        7,
+        1,
+        0
+      ],
+      "ordered_demo_indices": [
+        29027,
+        10340,
+        53945,
+        54591,
+        28573,
+        104763,
+        24141,
+        118585
+      ],
+      "num_test": 100,
+      "num_correct": 66,
+      "accuracy": 0.66,
+      "parse_failures": 2
+    },
+    {
+      "set_id": 3,
+      "permutation_id": 4,
+      "canonical_demo_indices": [
+        118585,
+        24141,
+        54591,
+        10340,
+        29027,
+        53945,
+        28573,
+        104763
+      ],
+      "permutation": [
+        4,
+        5,
+        3,
+        0,
+        2,
+        6,
+        1,
+        7
+      ],
+      "ordered_demo_indices": [
+        29027,
+        53945,
+        10340,
+        118585,
+        54591,
+        28573,
+        24141,
+        104763
+      ],
+      "num_test": 100,
+      "num_correct": 71,
+      "accuracy": 0.71,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 4,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        100687,
+        27741,
+        3522,
+        109971,
+        52147,
+        90632,
+        113170,
+        102525
+      ],
+      "permutation": [
+        2,
+        7,
+        3,
+        5,
+        4,
+        1,
+        0,
+        6
+      ],
+      "ordered_demo_indices": [
+        3522,
+        102525,
+        109971,
+        90632,
+        52147,
+        27741,
+        100687,
+        113170
+      ],
+      "num_test": 100,
+      "num_correct": 73,
+      "accuracy": 0.73,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 4,
+      "permutation_id": 1,
+      "canonical_demo_indices": [
+        100687,
+        27741,
+        3522,
+        109971,
+        52147,
+        90632,
+        113170,
+        102525
+      ],
+      "permutation": [
+        5,
+        1,
+        7,
+        3,
+        2,
+        6,
+        0,
+        4
+      ],
+      "ordered_demo_indices": [
+        90632,
+        27741,
+        102525,
+        109971,
+        3522,
+        113170,
+        100687,
+        52147
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 4,
+      "permutation_id": 2,
+      "canonical_demo_indices": [
+        100687,
+        27741,
+        3522,
+        109971,
+        52147,
+        90632,
+        113170,
+        102525
+      ],
+      "permutation": [
+        2,
+        1,
+        5,
+        6,
+        4,
+        0,
+        3,
+        7
+      ],
+      "ordered_demo_indices": [
+        3522,
+        27741,
+        90632,
+        113170,
+        52147,
+        100687,
+        109971,
+        102525
+      ],
+      "num_test": 100,
+      "num_correct": 72,
+      "accuracy": 0.72,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 4,
+      "permutation_id": 3,
+      "canonical_demo_indices": [
+        100687,
+        27741,
+        3522,
+        109971,
+        52147,
+        90632,
+        113170,
+        102525
+      ],
+      "permutation": [
+        4,
+        3,
+        5,
+        2,
+        6,
+        7,
+        1,
+        0
+      ],
+      "ordered_demo_indices": [
+        52147,
+        109971,
+        90632,
+        3522,
+        113170,
+        102525,
+        27741,
+        100687
+      ],
+      "num_test": 100,
+      "num_correct": 71,
+      "accuracy": 0.71,
+      "parse_failures": 1
+    },
+    {
+      "set_id": 4,
+      "permutation_id": 4,
+      "canonical_demo_indices": [
+        100687,
+        27741,
+        3522,
+        109971,
+        52147,
+        90632,
+        113170,
+        102525
+      ],
+      "permutation": [
+        4,
+        5,
+        3,
+        0,
+        2,
+        6,
+        1,
+        7
+      ],
+      "ordered_demo_indices": [
+        52147,
+        90632,
+        109971,
+        100687,
+        3522,
+        113170,
+        27741,
+        102525
+      ],
+      "num_test": 100,
+      "num_correct": 70,
+      "accuracy": 0.7,
+      "parse_failures": 1
+    }
+  ],
+  "num_predictions": 2500,
+  "parse_failures": 28,
+  "inference_seconds": 2384.30384848651
+}

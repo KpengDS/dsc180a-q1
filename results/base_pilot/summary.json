@@ -1,0 +1,262 @@
+{
+  "accuracy_matrix": [
+    [
+      0.8,
+      0.7,
+      0.7
+    ],
+    [
+      0.8,
+      0.7,
+      0.7
+    ]
+  ],
+  "std_ddof": 0,
+  "order_std_by_set": [
+    0.04714045207910321,
+    0.04714045207910321
+  ],
+  "selection_std_by_permutation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "order_sensitivity": 0.04714045207910321,
+  "selection_sensitivity": 0.0,
+  "selection_over_order": 0.0,
+  "ratio_status": "defined",
+  "mean_accuracy": 0.7333333333333333,
+  "configurations": [
+    {
+      "set_id": 0,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        2,
+        7,
+        3,
+        5,
+        4,
+        1,
+        0,
+        6
+      ],
+      "ordered_demo_indices": [
+        36222,
+        113426,
+        112323,
+        88449,
+        89467,
+        1571,
+        98053,
+        40434
+      ],
+      "num_test": 10,
+      "num_correct": 8,
+      "accuracy": 0.8,
+      "parse_failures": 0
+    },
+    {
+      "set_id": 0,
+      "permutation_id": 1,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        5,
+        1,
+        7,
+        3,
+        2,
+        6,
+        0,
+        4
+      ],
+      "ordered_demo_indices": [
+        88449,
+        1571,
+        113426,
+        112323,
+        36222,
+        40434,
+        98053,
+        89467
+      ],
+      "num_test": 10,
+      "num_correct": 7,
+      "accuracy": 0.7,
+      "parse_failures": 0
+    },
+    {
+      "set_id": 0,
+      "permutation_id": 2,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        2,
+        1,
+        5,
+        6,
+        4,
+        0,
+        3,
+        7
+      ],
+      "ordered_demo_indices": [
+        36222,
+        1571,
+        88449,
+        40434,
+        89467,
+        98053,
+        112323,
+        113426
+      ],
+      "num_test": 10,
+      "num_correct": 7,
+      "accuracy": 0.7,
+      "parse_failures": 0
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        2,
+        7,
+        3,
+        5,
+        4,
+        1,
+        0,
+        6
+      ],
+      "ordered_demo_indices": [
+        68525,
+        74161,
+        106220,
+        22287,
+        63061,
+        74585,
+        31254,
+        29067
+      ],
+      "num_test": 10,
+      "num_correct": 8,
+      "accuracy": 0.8,
+      "parse_failures": 0
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 1,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        5,
+        1,
+        7,
+        3,
+        2,
+        6,
+        0,
+        4
+      ],
+      "ordered_demo_indices": [
+        22287,
+        74585,
+        74161,
+        106220,
+        68525,
+        29067,
+        31254,
+        63061
+      ],
+      "num_test": 10,
+      "num_correct": 7,
+      "accuracy": 0.7,
+      "parse_failures": 0
+    },
+    {
+      "set_id": 1,
+      "permutation_id": 2,
+      "canonical_demo_indices": [
+        31254,
+        74585,
+        68525,
+        106220,
+        63061,
+        22287,
+        29067,
+        74161
+      ],
+      "permutation": [
+        2,
+        1,
+        5,
+        6,
+        4,
+        0,
+        3,
+        7
+      ],
+      "ordered_demo_indices": [
+        68525,
+        74585,
+        22287,
+        29067,
+        63061,
+        31254,
+        106220,
+        74161
+      ],
+      "num_test": 10,
+      "num_correct": 7,
+      "accuracy": 0.7,
+      "parse_failures": 0
+    }
+  ],
+  "num_predictions": 60,
+  "parse_failures": 0,
+  "inference_seconds": 53.49825803900603
+}

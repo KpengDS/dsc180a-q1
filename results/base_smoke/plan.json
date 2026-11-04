@@ -1,0 +1,97 @@
+{
+  "config": {
+    "num_sets": 1,
+    "num_permutations": 1,
+    "num_test": 5,
+    "per_class": 2,
+    "seed": 180,
+    "selection": "balanced",
+    "ordering": "canonical",
+    "test_sampling": "near_balanced",
+    "max_chars": 1000,
+    "std_ddof": 0,
+    "device": "mps",
+    "model_id": "Qwen/Qwen2.5-1.5B",
+    "prompt_mode": "completion",
+    "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "dataset_revision": "eb185aade064a813bc0b7f42de02595523103ca4"
+  },
+  "stream_seeds": {
+    "selection": 16783955652634422008,
+    "ordering": 7047331334273152013,
+    "test": 6080106781100472174
+  },
+  "demonstration_sets": [
+    [
+      98053,
+      1571,
+      36222,
+      112323,
+      89467,
+      88449,
+      40434,
+      113426
+    ]
+  ],
+  "permutations": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "test_indices": [
+    1025,
+    1176,
+    653,
+    2930,
+    2422
+  ],
+  "test_label_counts": {
+    "World": 1,
+    "Sports": 1,
+    "Business": 1,
+    "Sci/Tech": 2
+  },
+  "configurations": [
+    {
+      "set_id": 0,
+      "permutation_id": 0,
+      "canonical_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ],
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ordered_demo_indices": [
+        98053,
+        1571,
+        36222,
+        112323,
+        89467,
+        88449,
+        40434,
+        113426
+      ]
+    }
+  ]
+}

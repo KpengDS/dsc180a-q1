@@ -218,3 +218,86 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project downloads and large raw outputs
+/data/
+/datasets/
+/models/
+/checkpoints/
+/results/raw/
+.huggingface/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+pytorch_model*.bin
+
+# Additional local environments and secrets
+.venv*/
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+.aws/
+.DS_Store
+
+# Checkpoint hygiene: local tools, downloads, and credentials
+.venv/
+venv*/
+.hf/
+huggingface/
+huggingface_cache/
+hf_cache/
+.cache/
+.wandb/
+wandb/
+mlruns/
+.vscode/
+.idea/
+.ssh/
+.netrc
+.hf_token
+token.txt
+credentials.json
+credentials.*.json
+service-account*.json
+secrets.*
+*.p12
+*.pfx
+*.jks
+*.bin
+*.gguf
+*.ggml
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.arrow
+*.parquet
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.dmg
+
+# Results are local by default; retain only reviewed checkpoint metadata.
+# This does not remove files from disk. Raw outputs and source snapshots stay local.
+/results/*
+!/results/.gitkeep
+!/results/README.md
+!/results/pilot/
+!/results/base_smoke/
+!/results/base_pilot/
+!/results/base_intermediate/
+/results/*/*
+!/results/*/plan.json
+!/results/*/manifest.json
+!/results/*/summary.json
+!/results/*/configurations.csv
+!/results/*/environment.txt
+!/results/*/comparison.json

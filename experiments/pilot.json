@@ -1,0 +1,15 @@
+{
+  "num_sets": 2,
+  "num_permutations": 3,
+  "num_test": 10,
+  "per_class": 2,
+  "seed": 180,
+  "selection": "balanced",
+  "ordering": "random",
+  "test_sampling": "near_balanced",
+  "max_chars": 1000,
+  "std_ddof": 0,
+  "device": "mps",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "dataset_revision": "eb185aade064a813bc0b7f42de02595523103ca4"
+}

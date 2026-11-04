@@ -1,0 +1,53 @@
+{
+  "base": {
+    "accuracy_matrix": [
+      [
+        0.8,
+        0.7,
+        0.7
+      ],
+      [
+        0.8,
+        0.7,
+        0.7
+      ]
+    ],
+    "mean_accuracy": 0.7333333333333333,
+    "order_sensitivity": 0.04714045207910321,
+    "selection_sensitivity": 0.0,
+    "selection_over_order": 0.0,
+    "parse_failures": 0,
+    "inference_seconds": 53.49825803900603,
+    "wall_seconds": 62.25442
+  },
+  "instruct": {
+    "accuracy_matrix": [
+      [
+        1.0,
+        0.9,
+        0.9
+      ],
+      [
+        0.8,
+        0.9,
+        0.8
+      ]
+    ],
+    "mean_accuracy": 0.8833333333333333,
+    "order_sensitivity": 0.04714045207910316,
+    "selection_sensitivity": 0.04999999999999999,
+    "selection_over_order": 1.0606601717798212,
+    "parse_failures": 2,
+    "inference_seconds": 56.84853812598158,
+    "wall_seconds": 66.242791
+  },
+  "paired_counts": {
+    "base_only_correct": 2,
+    "instruct_only_correct": 11,
+    "both_correct": 42,
+    "both_incorrect": 5
+  },
+  "same_selections_permutations_and_test_indices": true,
+  "previous_artifacts_unchanged": 48,
+  "caveat": "Descriptive comparison of model plus prompt/parser protocols; repeated test examples are not independent trials. No significance or causal model-only claim."
+}
