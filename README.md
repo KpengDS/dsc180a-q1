@@ -169,7 +169,7 @@ Read [methodology](report/methodology.md), the frozen
 [Base pilot comparison](report/base_pilot_results.md),
 [Base intermediate results](report/base_intermediate_results.md).
 
-## Limitations and checkpoint scope
+## Limitations
 
 This work does not establish a general superiority of order or selection effects.
 The intermediate study uses one seed, five sets/permutations, and 100 unique test
@@ -184,8 +184,3 @@ Exact original prompts, parsing, seeds/indices, checkpoint versions, truncation,
 numerical settings, sorting details, and `ddof` are unconfirmed. Section 4
 ordering selection with a development set is outside this implementation.
 The project therefore remains an explicitly documented adaptation.
-
-This repository is prepared for review before the November 6 Code Checkpoint.
-No Gradescope-specific packaging or submission format has been assumed. The
-checkpoint was committed and pushed to `main` in commit
-`112e7267edea9139606d47c65b4088e001de4d75`. Nothing has been submitted to Gradescope.
