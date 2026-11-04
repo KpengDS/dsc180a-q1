@@ -1,7 +1,7 @@
 # DSC 180A Q1: Order and Selection Sensitivity in In-Context Learning
 
-UC San Diego DSC 180A Q1 research project for the November 6 Code Checkpoint.
-We study how AG News classification accuracy changes when **the same eight
+Individual UC San Diego DSC 180A Q1 research project for the November 6 Code Checkpoint.
+I study how AG News classification accuracy changes when **the same eight
 training demonstrations are reordered** versus when **the demonstration set is
 replaced under a fixed positional ordering**. The project is based on
 [Order Matters: Rethinking Prompt Construction in In-Context Learning](https://arxiv.org/abs/2511.09700).
@@ -178,7 +178,7 @@ examples. Its first two sets and first three permutations match the Base pilot,
 but only three test articles overlap, so their aggregate comparison is not fully
 paired. Base/Instruct comparisons also change prompt and parser protocols.
 
-The paper uses 10×10×500 and describes oversampling for class balance; our
+The paper uses 10×10×500 and describes oversampling for class balance; this project's
 intermediate sample uses stratified sampling without replacement (25 per class).
 Exact original prompts, parsing, seeds/indices, checkpoint versions, truncation,
 numerical settings, sorting details, and `ddof` are unconfirmed. Section 4
@@ -186,5 +186,6 @@ ordering selection with a development set is outside this implementation.
 The project therefore remains an explicitly documented adaptation.
 
 This repository is prepared for review before the November 6 Code Checkpoint.
-No Gradescope-specific packaging or submission format has been assumed. No files
-have been submitted, committed, or pushed as part of checkpoint preparation.
+No Gradescope-specific packaging or submission format has been assumed. The
+checkpoint was committed and pushed to `main` in commit
+`112e7267edea9139606d47c65b4088e001de4d75`. Nothing has been submitted to Gradescope.

@@ -30,7 +30,7 @@ versions, and source snapshots are saved under `results/base_intermediate/`.
 
 This remains a methodology-inspired adaptation of Section 3, not exact replication.
 The paper's 10 sets × 10 permutations × 500 test articles are reduced to 5×5×100.
-Our evaluation sample is exactly balanced by stratified sampling without
+This project's evaluation sample is exactly balanced by stratified sampling without
 replacement; the paper describes oversampling to balance evaluation classes.
 The Base model family/size now aligns with the listed Qwen model, but the exact
 paper checkpoint is unverified. Exact paper prompt, completion boundary, label

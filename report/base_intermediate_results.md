@@ -107,13 +107,13 @@ The results note was written after the evaluator's source snapshot was taken.
 
 This is a methodology-inspired Section 3 adaptation, not exact replication.
 The paper uses **10 sets × 10 permutations × 500 test articles**, rather than
-5×5×100. We balance test classes by stratified sampling without replacement;
+5×5×100. This project balances test classes by stratified sampling without replacement;
 the paper describes oversampling underrepresented classes. The Base model name
 now matches the listed family/size, but the exact original checkpoint is not
 verified. The paper's exact prompt, parser, completion boundary, decoding,
 truncation, numerical settings, source indices, seeds, alphabetical normalization
 and tie rules, dataset versions, and standard-deviation `ddof` are unconfirmed.
-Our explicit choices remain fixed. Section 4 development-set ordering optimization
+This project's explicit choices remain fixed. Section 4 development-set ordering optimization
 is outside this run. See [methodology.md](methodology.md) and the pre-run
 [intermediate protocol](base_intermediate_protocol.md).
 

@@ -71,7 +71,7 @@ selection sensitivity = mean_j(std(A[:, j]; ddof))
 relative ratio         = selection sensitivity / order sensitivity
 ```
 
-Our explicit default is population standard deviation (`ddof=0`); `--std-ddof 1`
+This project's explicit default is population standard deviation (`ddof=0`); `--std-ddof 1`
 selects sample standard deviation and requires both matrix dimensions >= 2.
 Sensitivities multiplied by 100 are percentage points. A zero order denominator
 produces a JSON `null` ratio plus an explanation, including when both are zero.
@@ -114,7 +114,7 @@ saves the selections, with no model loading or generation.
 - `summary.json`: configuration results, accuracy matrix, sensitivities, ratio.
 - `environment.txt` and `source/`: installed package versions and snapshots of
   source, tests, configuration, methodology, requirements, and README. Snapshots
-  include untracked source files, since this work has not been committed.
+  include source files that were untracked at run time.
 
 Snapshot hashes are pinned to the previously verified local model and dataset.
 The model is loaded once for the entire run, and inference uses batch size one.
