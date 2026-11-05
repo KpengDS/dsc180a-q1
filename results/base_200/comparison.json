@@ -1,0 +1,46 @@
+{
+  "current": {
+    "mean_accuracy": 0.7192,
+    "order_sensitivity": 0.021686665856687146,
+    "selection_sensitivity": 0.016117707872201587,
+    "selection_over_order": 0.743208198932601,
+    "parse_failures": 9,
+    "inference_seconds": 4991.976793625858
+  },
+  "baseline": {
+    "baseline": "results/base_intermediate",
+    "baseline_metrics": {
+      "mean_accuracy": 0.7136,
+      "order_sensitivity": 0.022818178034626303,
+      "selection_sensitivity": 0.015092409446076083,
+      "selection_over_order": 0.6614204439624206,
+      "order_std_by_set": [
+        0.014696938456699081,
+        0.027129319932501055,
+        0.03006659275674581,
+        0.031999999999999994,
+        0.01019803902718558
+      ],
+      "selection_std_by_permutation": [
+        0.013266499161421611,
+        0.013266499161421611,
+        0.0040000000000000036,
+        0.02638181191654581,
+        0.018547236990991384
+      ]
+    },
+    "first_demo_sets_preserved": true,
+    "first_permutations_preserved": true,
+    "common_test_overlap": 32,
+    "note": "Different evaluation sample sizes and coverage; descriptive, not a fully paired comparison."
+  },
+  "shared_article_checks": {
+    "matched_configuration_article_pairs": 800,
+    "identical_prompts": 800,
+    "identical_raw_outputs": 800,
+    "identical_predictions": 800
+  },
+  "accuracy_change_percentage_points": 0.5600000000000049,
+  "wall_seconds": 5010.398799,
+  "caveat": "Same demonstrations and permutations, but different evaluation sample with only 32 overlapping articles. Descriptive comparison, not fully paired."
+}

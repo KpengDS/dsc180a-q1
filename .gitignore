@@ -294,6 +294,7 @@ secrets.*
 !/results/base_smoke/
 !/results/base_pilot/
 !/results/base_intermediate/
+!/results/base_200/
 /results/*/*
 !/results/*/plan.json
 !/results/*/manifest.json
